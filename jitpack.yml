@@ -1,0 +1,4 @@
+jdk:
+  - openjdk11
+install:
+  - ./gradlew -p kswift-gradle-plugin -Pgroup=com.github.hbmartin -Pversion=$VERSION -xtest assemble publishPluginJar publishToMavenLocal
